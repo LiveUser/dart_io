@@ -7,7 +7,7 @@ authors = ["Radamés Jomuel Valentín Reyes"]
 description = "dart_io is a dart inspired high level abstraction to interact with io operations."
 license="AGPL-3.0"
 readme = "README.md"
-keywords = ["file", "directory", "dart", "io", "simple","abstraction", "interface"]
+keywords = ["file", "io", "simple","abstraction", "interface"]
 categories = ["filesystem"]
 repository = "https://github.com/LiveUser/dart_io"
 
