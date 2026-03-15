@@ -9,5 +9,6 @@ license="GNU GPLv3"
 readme = "README.md"
 keywords = ["file", "directory", "dart", "io", "simple","abstraction", "interface"]
 categories = ["filesystem"]
+repository = "https://github.com/LiveUser/dart_io"
 
 [dependencies]
