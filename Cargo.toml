@@ -1,0 +1,13 @@
+[package]
+name = "dart_io"
+version = "0.1.0"
+edition = "2024"
+
+authors = ["Radamés Jomuel Valentín Reyes"]
+description = "dart_io is a dart inspired high level abstraction to interact with io operations."
+license="GNU GPLv3"
+readme = "README.md"
+keywords = ["file", "directory", "dart", "io", "simple","abstraction", "interface"]
+categories = ["filesystem"]
+
+[dependencies]
