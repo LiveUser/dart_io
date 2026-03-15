@@ -2,7 +2,7 @@ use std::fs;
 use std::path::{Path, PathBuf};
 
 //Directory----------------------
-struct Directory{
+pub struct Directory{
     full_path:String,
 }
 impl Directory {
@@ -70,7 +70,7 @@ impl Directory {
 }
 
 //File----------------------------
-struct File{
+pub struct File{
     full_path:String,
 }
 impl File{
@@ -165,7 +165,7 @@ impl File{
     }
 }
 
-enum FileSystemEntity{
+pub enum FileSystemEntity{
     File(File),
     Directory(Directory),
 }
