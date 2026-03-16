@@ -3,7 +3,7 @@ use std::path::{Path, PathBuf};
 
 //Directory----------------------
 pub struct Directory{
-    full_path:String,
+    pub full_path:String,
 }
 impl Directory {
     //Directory exists
@@ -71,7 +71,7 @@ impl Directory {
 
 //File----------------------------
 pub struct File{
-    full_path:String,
+    pub full_path:String,
 }
 impl File{
     //File exists

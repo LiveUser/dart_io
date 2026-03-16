@@ -51,3 +51,11 @@ let text:String = file.read_as_string();
 ~~~rs
 let bytes:Vec<u8> = file.read_as_bytes();
 ~~~
+#### Write File as String
+~~~rs
+file.write_as_string("Hello World".to_string());
+~~~
+#### Write File as Bytes
+~~~rs
+file.write_as_bytes([1,2,3,4,5].to_vec());
+~~~
